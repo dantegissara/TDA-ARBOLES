@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "arboles.h"
-#define CANTIDAD_ARBOLES 100
+#include <string.h>
 
+#define CANTIDAD_ARBOLES 100
 
 int main()
 {
@@ -16,9 +17,9 @@ int main()
     mostrarArboles(arboles);
     modificarArbol(arboles,"Laurel");
     mostrarArboles(arboles);
-    eliminarArbol(arboles,"Laurel");
+    eliminarArbol(arboles,"Cocotero");
+    eliminarArbol(arboles,"Falsa Acacia");
     mostrarArboles(arboles);
-
 
 
     return 0;
